@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #417fa8;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 25%;
+    padding: 20px;
+    background-color: #8FD3FF;
+  }
+  
+  .sidebar h1 {
+    color: white;
+  }
+  
+  .online-status {
+    margin-top: 20px;
+    background-color: #2C7FB8;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  
+  .online-status p {
+    margin: 0;
+  }
+  
+  .chat-icon img {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .chat-window {
+    width: 75%;
+    padding: 30px;
+    background-color: #4FB3FF;
+    border-radius: 70px;
+    position: relative;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header h2 {
+    margin: 0;
+    color: white;
+  }
+  
+  .ai-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .close-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .chat-box {
+    margin-top: 60px;
+  }
+  
+  .message {
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .chatbot-message {
+    background-color: #E0F7FA;
+    align-self: flex-start;
+  }
+  
+  .user-message {
+    background-color: #fff;
+    color: black;
+    align-self: flex-end;
+  }
+  
+  .user-input {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .user-input input {
+    width: calc(100% - 60px);
+    padding: 10px;
+    border: 1px solid #B3E5FC;
+    border-radius: 30px;
+  }
+  
+  .send-button {
+    background-color: #0288D1;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  .quote {
+    margin-top: 20px;
+    background-color: #B3E5FC;
+    padding: 10px;
+    border-radius: 15px;
+    color: #0288D1;
+  }
+  
+  .register-button {
+    background-color: #0288D1;
+    border: none;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
